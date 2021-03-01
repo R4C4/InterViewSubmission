@@ -9,7 +9,7 @@ class MedianFinder_DLL MedianFinder
 {
 public:
     MedianFinder();
-    double findMedian(const std::vector<double>& file);
+    static double findMedian(std::vector<double>& list);
 };
 
 #endif // SAMPLE_CLASS

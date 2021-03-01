@@ -7,8 +7,10 @@ SET( _sources main.cpp
 			  mainwindow.cpp
 			  mainwindow.h
 			  mainwindow.ui
-				fileselector.h
-				fileselector.cpp
+			  fileselector.h
+		      fileselector.cpp
+			  fileparser.h
+			  fileparser.cpp
 )
 
 # Set all dependencies. This includes libraries that are built by this solution as well as

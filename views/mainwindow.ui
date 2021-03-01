@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>590</width>
-    <height>85</height>
+    <width>592</width>
+    <height>162</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,11 +16,14 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
     <item row="0" column="0">
-     <widget class="QPushButton" name="btnSelectButton">
+     <widget class="QPushButton" name="btnSelect">
       <property name="text">
        <string>Select File</string>
       </property>
      </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QTextBrowser" name="txtOutput"/>
     </item>
    </layout>
   </widget>
@@ -29,7 +32,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>590</width>
+     <width>592</width>
      <height>22</height>
     </rect>
    </property>
