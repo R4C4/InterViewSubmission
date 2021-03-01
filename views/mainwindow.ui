@@ -6,22 +6,30 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>619</width>
-    <height>388</height>
+    <width>590</width>
+    <height>85</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QVBoxLayout" name="verticalLayout"/>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QPushButton" name="btnSelectButton">
+      <property name="text">
+       <string>Select File</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>619</width>
+     <width>590</width>
      <height>22</height>
     </rect>
    </property>

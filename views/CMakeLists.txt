@@ -6,7 +6,9 @@ SET( APPLICATION_NAME "SampleViews" )
 SET( _sources main.cpp
 			  mainwindow.cpp
 			  mainwindow.h
-			  mainwindow.ui 
+			  mainwindow.ui
+				fileselector.h
+				fileselector.cpp
 )
 
 # Set all dependencies. This includes libraries that are built by this solution as well as
@@ -15,7 +17,7 @@ SET( _deps Qt${QT_VERSION_MAJOR}::Core
 		   Qt${QT_VERSION_MAJOR}::Gui
 		   Qt${QT_VERSION_MAJOR}::Widgets
 		   Qt${QT_VERSION_MAJOR}::Concurrent
-		   SampleClass
+		   MedianFinder
 )
 
 

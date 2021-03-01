@@ -4,8 +4,8 @@ string(REPLACE " " "_" LIBRARY_NAME ${LIBRARY_NAME})
 
 
 SET( _sources 
-		sampleclass.h
-		sampleclass.cpp
+		medianfinder.h
+		medianfinder.cpp
 )
 
 #if they are using qt dependencies

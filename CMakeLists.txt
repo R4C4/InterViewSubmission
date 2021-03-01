@@ -6,8 +6,8 @@ SET(TEST_FOLDER "tests")
 set(MODELS_PREFIX "models")
 
 #Set Path to Qt installation here
-#set(CMAKE_PREFIX_PATH "D:/Qt/6.0.1/msvc2019_64/lib/cmake")
-#list(APPEND CMAKE_PREFIX_PATH "D:/Qt/6.0.1/msvc2019_64/bin")
+set(CMAKE_PREFIX_PATH "D:/Qt/6.0.1/msvc2019_64/lib/cmake")
+list(APPEND CMAKE_PREFIX_PATH "D:/Qt/6.0.1/msvc2019_64/bin")
 
 
 # Define Project name. Note: You have only ONE Project, this is equivalent to the solution name in visual studio.

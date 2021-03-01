@@ -9,6 +9,7 @@ SET( _sources
 # Add here additional libraries used in testing
 SET( _deps Qt${QT_VERSION_MAJOR}::Core
 		   Qt${QT_VERSION_MAJOR}::Gui
+		   MedianFinder
 		   catch )
 
 DEPLOY_QT_APPLICATION(${APPLICATION_NAME} "${_sources}" "${_deps}")
